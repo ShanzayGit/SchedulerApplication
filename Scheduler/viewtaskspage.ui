@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewTasksPage</class>
+ <widget class="QWidget" name="ViewTasksPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QFrame {
+    background-color: white;
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}
+QWidget {
+    background-color: #fdf1f1;   /* pastel pink background */
+    color: #2e2e2e;              /* charcoal text */
+}
+
+QPushButton {
+    background-color: #d8f3dc;   /* mint green buttons */
+    color: #2e2e2e;              /* dark text */
+   
+    border-radius: 8px;
+    padding: 8px;
+}
+
+QPushButton:pressed {
+    background-color: #fff5e1;   /* soft cream when pressed */
+}
+QDateEdit{
+ background-color:white;
+}
+QTimeEdit
+{
+background-color:white;
+}
+QPlainTextEdit
+{
+background-color:white;
+}
+QComboBox
+{
+background-color:white;
+}
+
+</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>50</y>
+     <width>160</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+    background-color: #DBCDF0;
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}</string>
+   </property>
+   <property name="title">
+    <string>View All Tasks</string>
+   </property>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>140</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="plainText">
+     <string>Want to view all of your scheduleded tasks just click view all tasks.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnViewAll">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Script</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>View All</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>270</y>
+     <width>160</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+    background-color: #F2C6DE;
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}</string>
+   </property>
+   <property name="title">
+    <string>View Done Tasks</string>
+   </property>
+   <widget class="QPlainTextEdit" name="plainTextEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>140</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="plainText">
+     <string>Want to view all of your Done tasks. Just click View Done.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnViewDone">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Script</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>View Done</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>50</y>
+     <width>160</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+    background-color: #C6DEF0;
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}</string>
+   </property>
+   <property name="title">
+    <string>View ToDo Tasks</string>
+   </property>
+   <widget class="QPlainTextEdit" name="plainTextEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>140</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="plainText">
+     <string>Want to view all your ToDo tasks. Just click View Todo.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnViewToDo">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Script</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>View ToDo</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_4">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>270</y>
+     <width>160</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+    background-color: #C6E4DE;
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}</string>
+   </property>
+   <property name="title">
+    <string>View Today's Task</string>
+   </property>
+   <widget class="QPlainTextEdit" name="plainTextEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>140</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="plainText">
+     <string>Want to view all tasks scheduled for today. Just click View Today.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnViewToday">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Script</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>View Today</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_5">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>50</y>
+     <width>160</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+    background-color: #C9E4DE;
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}</string>
+   </property>
+   <property name="title">
+    <string>View InProgress Tasks</string>
+   </property>
+   <widget class="QPlainTextEdit" name="plainTextEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>140</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="plainText">
+     <string>Want to view all your InProgress tasks. Just click View InProgress.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnViewInProgress">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Script</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>View InProgress</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_6">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>270</y>
+     <width>160</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+    background-color: #DBCDF0;
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}</string>
+   </property>
+   <property name="title">
+    <string>View Specific Task</string>
+   </property>
+   <widget class="QPlainTextEdit" name="plainTextEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>140</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="plainText">
+     <string>Want to view any of your specific tasks . Just click view specific.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnViewSpecific">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Script</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>View Specific</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="btnBack">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>490</y>
+     <width>121</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ViewTasksLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>140</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>View Tasks Page</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

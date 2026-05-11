@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddTasksPage</class>
+ <widget class="QWidget" name="AddTasksPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QFrame {
+    background-color: white;
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}QWidget {
+    background-color: #fdf1f1;   /* pastel pink background */
+    color: #2e2e2e;              /* charcoal text */
+}
+QPushButton {
+    background-color: #d8f3dc;   /* mint green buttons */
+    color: #2e2e2e;              /* dark text */
+   
+    border-radius: 8px;
+    padding: 8px;
+}
+
+QPushButton:pressed {
+    background-color: #fff5e1;   /* soft cream when pressed */
+}
+</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>49</x>
+     <y>60</y>
+     <width>591</width>
+     <height>410</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+    </font>
+   </property>
+   <property name="title">
+    <string>Add Task</string>
+   </property>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>130</width>
+      <height>270</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QGroupBox{
+   background-color:#DBCDF0;
+
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}</string>
+    </property>
+    <property name="title">
+     <string>Task Message</string>
+    </property>
+    <widget class="QPlainTextEdit" name="plainTextEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>110</width>
+       <height>190</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+    background-color: white;
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}</string>
+     </property>
+     <property name="plainText">
+      <string>Type your message here.</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>50</y>
+      <width>130</width>
+      <height>270</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QGroupBox{
+   background-color:#C6DEF1;
+
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}</string>
+    </property>
+    <property name="title">
+     <string>Task Date</string>
+    </property>
+    <widget class="QPlainTextEdit" name="plainTextEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>110</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+    background-color: white;
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="plainText">
+      <string>Select your date from bellow.</string>
+     </property>
+    </widget>
+    <widget class="QDateEdit" name="dateEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>110</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QDateEdit
+ {
+    background-color: white;
+ }</string>
+     </property>
+     <property name="calendarPopup">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>50</y>
+      <width>130</width>
+      <height>270</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QGroupBox{
+   background-color:#C9E4DE;
+
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}</string>
+    </property>
+    <property name="title">
+     <string>Task Time</string>
+    </property>
+    <widget class="QPlainTextEdit" name="plainTextEdit_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>110</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+    background-color: white;
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="plainText">
+      <string>Select the desired time from bellow.</string>
+     </property>
+    </widget>
+    <widget class="QTimeEdit" name="timeEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>110</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTimeEdit {
+    background-color: white;
+ }</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>50</y>
+      <width>130</width>
+      <height>270</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QGroupBox{
+   background-color:#F2C6DE;
+
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}</string>
+    </property>
+    <property name="title">
+     <string>Task Status</string>
+    </property>
+    <widget class="QPlainTextEdit" name="plainTextEdit_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>110</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+    background-color: white;
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="plainText">
+      <string>Select status from bellow it could be either Todo/InProgress/Done.</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>110</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox
+{
+background-color:white;
+}</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>350</y>
+      <width>70</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Script</family>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnBack">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>350</y>
+      <width>70</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Script</family>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

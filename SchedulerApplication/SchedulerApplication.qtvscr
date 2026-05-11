@@ -1,0 +1,462 @@
+<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontFamily="Segoe UI" FontSize="12">
+  <FlowDocument.Tag><![CDATA[{
+  "timestamp": "2026-05-10 17:06:49",
+  "files": {
+    "C:\\Users\\FixUser123\\source\\repos\\SchedulerApplication\\SchedulerApplication\\SchedulerApplication.vcxproj": {
+      "before": "7VlZb+M2EN7nAv0HfVCFFE4eYvnaI42sxa6dBkadA+scLwEWtETbbCRRS1LZpN3+947EQ5ZjJzLSTYo0fjAgamZIfpz5Zjj6+adXr9z311FoXWHGCY27drPesC0c+zQg8bRrp2Ky/c5+7/34g3vM6B/YF1YfT1AaihPEpljwrv0xJWFgW2AlhqeZEMmvjsP9GY4Qr0fEZ5TTiaj7NHICfIVDmmDmRHycqTmtRqNtg3XLcgcCR/uMpok1RGMcdm01YY/GEzJNGRKwQC6FQXzZW2sQ+2Ea4K7dx+N0+u2cxO2W1gCdkikvl3Gd8mC2lOznHodITCiLvNyI65hnKQEDEo9l6vcs7hMOMeL4nuUpqadYoETv+k3nodiBie+C3F1Lq4zbmotzHeOh0mHBAcCVxU3JafdDOkZh4aZnPeUnZzLCvObbesN1bg0rr/od33ylLJBOl2m6jh5SEsrcfkoC769JG79BzZ3Wdqe583q70/H97Z3W253td69bneakMdkJAv9v46q5jjLziVJxiCLME+RjbwThGqQhZh+SJCQ+EjR2nbKI0oNoCOhXLqNfx4TZWyPb250imZl8QQV0KvyjhDJhqe117Y3Ns57imGMkZlsXB4ZKeklSVyxUT+AQuG05y44EQjMgGWt07drGZilQt75tbOrVb9W63docYdRszUAlFR0LZRY5uUmwp1GDqRbCNX+toDvlOJ9lSMYMMYK5J1iKXef2uFLQCzyhNORYeFfNTrsIJz2qhHszxJAvMBuB5GlMgMHBdml0JfYAenEc1jqwlajs8YCbQIj9a8idz2iIAYIpQ9FRIkhE/sxzjTqela+fFHhD0Y8H+vPxVmD+x4PtufjqYD2CLhOzVC5lyr1rgeOs6ATCElBsqpwJaTafKJedTw0l5RGwHQ4kJVfT0Bw3mmEoW+21WK6UHPI1QRK7jQcQOcuSZp+wxXQ1l23qKYjpvDXHtfiacME3IVOtbae2ZVLWkPoohHzURwLp/GHSYyVoHwLUQjp4gcpcXFYUHDkTvcC0GibtUc8PKB1nJV7LQv8AZXdmE7TZrQOqXRLnpayUnqON9Spb7Wq9sEejhIRYDQCfnSMWAw0Pszu6l/9DsVkalAUPiI76w94M+5eqQjKPRuCYYeB/H3NOWbF27p0PDtut3c/9vY+n+7ufe0eHo6Ph3u4vmyvkt7KbwnJLZqqsRodrOop9fAAlr1rS4qiq1ZzFfbtDEl8WGIzS8eiGA+AeGOBQFrpOMWSm3McxhnaErOYHcvrsmqHmXvlaL8LMKa+UBUDzOe+Bp67jJu9e1Iq7y4PO/bc09rON5t6R7QL8RW166SuD2CAWjECy97WYvvsseWGUjFvJwtM8GoFVviG97PDFy6Rnf0cvm7uFPDGzPBmnAB1+CGSbAYWq/wgFIHRKaX7Hh8pPNgqzqpDI/uRuaZAz33XutKGJ43/HXqWsv7j79XKWZp7/OHe9sJbKx/ewVpEqwQ2MZxQfAFCSXESIxHU/SXQptVwSwu8Cbku4muTBzShLZdOq0ickqmhZ9WBR1oOtZt10bauJ8y8hEbhd9+/H4wTxy3mj8jAKzIuPNQXtK+4rjkCRnQR3Vpp0payBt7J8DnBF6QKwdRWyM6moo2GuKJ5DbWRvA71e10XIr3IabNWkkJcG9VnN9F1Ud315E8V8NPD+AQ==",
+      "after": "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"
+    }
+  }
+}]]></FlowDocument.Tag>
+  <Section Margin="0,24" TextAlignment="Center">
+    <Paragraph FontSize="24" FontWeight="Bold" Margin="12,0">
+      <LineBreak />
+      <Span Foreground="Gray">Qt Visual Studio Tools</Span>
+    </Paragraph>
+    <Paragraph FontSize="42" Margin="12,0" FontWeight="Bold">
+      <Span TextDecorations="Underline">Project Format Conversion</Span>
+    </Paragraph>
+    <Paragraph Margin="12,8" FontSize="18">
+      <Span>Report generated on 2026-05-10 17:06:49</Span>
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Files</Span>
+    </Paragraph>
+    <Paragraph Margin="24,12,0,0">
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[C:\Users\FixUser123\source\repos\SchedulerApplication\SchedulerApplication\SchedulerApplication.vcxproj]]></Span>
+      <LineBreak />
+      <Hyperlink NavigateUri="file://C:\Users\FixUser123\source\repos\SchedulerApplication\SchedulerApplication\SchedulerApplication.vcxproj?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\FixUser123\source\repos\SchedulerApplication\SchedulerApplication\SchedulerApplication.vcxproj?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\FixUser123\source\repos\SchedulerApplication\SchedulerApplication\SchedulerApplication.vcxproj?diff&amp;before&amp;after">
+                        [Diff before/after]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\FixUser123\source\repos\SchedulerApplication\SchedulerApplication\SchedulerApplication.vcxproj?diff&amp;before&amp;current">
+                        [Diff before/current]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\FixUser123\source\repos\SchedulerApplication\SchedulerApplication\SchedulerApplication.vcxproj?diff&amp;after&amp;current">
+                        [Diff after/current]
+                    </Hyperlink>
+      <LineBreak />
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Changes</Span>
+    </Paragraph>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Converting custom build steps to Qt/MSBuild items]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\FixUser123\source\repos\SchedulerApplication\SchedulerApplication\SchedulerApplication.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalIncludeDirectories>$]]></Span><Span><![CDATA[(ProjectDir)include;$(ProjectDir)src</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;$]]></Span><Span><![CDATA[(ProjectDir)include;$(ProjectDir)src</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Enabling multi-processor compilation]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\FixUser123\source\repos\SchedulerApplication\SchedulerApplication\SchedulerApplication.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Project format version]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\FixUser123\source\repos\SchedulerApplication\SchedulerApplication\SchedulerApplication.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Keyword>QtVS_v304</Keyword>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Fallback for QTMSBUILD environment variable]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\FixUser123\source\repos\SchedulerApplication\SchedulerApplication\SchedulerApplication.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Default Qt properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\FixUser123\source\repos\SchedulerApplication\SchedulerApplication\SchedulerApplication.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt_defaults.props" Condition="Exists('$(QtMsBuild)\qt_defaults.props')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt build settings]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\FixUser123\source\repos\SchedulerApplication\SchedulerApplication\SchedulerApplication.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Warn if Qt/MSBuild is not found]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\FixUser123\source\repos\SchedulerApplication\SchedulerApplication\SchedulerApplication.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') OR !Exists('$(QtMsBuild)\Qt.props')">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  </Target>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt property sheet]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\FixUser123\source\repos\SchedulerApplication\SchedulerApplication\SchedulerApplication.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt targets]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\FixUser123\source\repos\SchedulerApplication\SchedulerApplication\SchedulerApplication.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+  </Section>
+  <Section>
+    <Paragraph />
+  </Section>
+</FlowDocument>
+<!--xx+q3zNfZipedYhNsSqq7tTdhDB3BuQpRB8J6nwJtok=-->

@@ -18,6 +18,8 @@ public:
 	String& operator =(const String&);
 	String& operator=(String&&);
 	~String();
+	const char* c_str() const { return data; }
+
 	void input();
 	void shrink();
 	char& operator [](const int index);

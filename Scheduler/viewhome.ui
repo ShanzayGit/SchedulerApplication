@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewHome</class>
+ <widget class="QWidget" name="ViewHome">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QFrame {
+    background-color: white;
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+}
+QWidget {
+    background-color: #fdf1f1;   /* pastel pink background */
+    color: #2e2e2e;              /* charcoal text */
+}
+
+QPushButton {
+    background-color: #d8f3dc;   /* mint green buttons */
+    color: #2e2e2e;              /* dark text */
+   
+    border-radius: 8px;
+    padding: 8px;
+}
+
+QPushButton:pressed {
+    background-color: #fff5e1;   /* soft cream when pressed */
+}
+QDateEdit{
+ background-color:white;
+}
+QTimeEdit
+{
+background-color:white;
+}
+QPlainTextEdit
+{
+background-color:white;
+}
+QComboBox
+{
+background-color:white;
+}
+
+</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>670</width>
+     <height>530</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
