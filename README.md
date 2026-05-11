@@ -64,7 +64,7 @@ SchedulerApplication/
 Handles task management operations including:
 - Adding tasks
 - Updating tasks
-- Filtering tasks
+- Viewing tasks
 
 ### Task
 Represents a single task containing:
