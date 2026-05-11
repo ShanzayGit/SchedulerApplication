@@ -20,9 +20,10 @@ SchedulerApplication is a C++ project that manages tasks by date and time. It al
 - Run the project (Ctrl+F5).
 
 ## Linux/Mac (g++)
+```
 g++ src/*.cpp app/main.cpp -I include -o scheduler
 ./scheduler
-
+```
 ## Usage
 - After building, run the executable to start the application. Example usage:
 - Add tasks with specific dates, times and status(Todo/InProgress/Done).
